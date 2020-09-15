@@ -185,7 +185,7 @@ In this file:
 
 In line 198, this function is used to read some files but failed.
 
-``` pytho
+``` python
 def _read(file, columns=None, skip_individuals=False, to_pandas=False, specific_individuals=None):
     if columns is None:
         columns = file.schema.names
